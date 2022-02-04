@@ -45,8 +45,8 @@ public class PhoneBillCalculator {
 
 	private static double overageFees(int overageMinutes) {
 		double overageRate = 0.25;
-		double totalIverageFees = overageRate * overageMinutes;
-		return totalIverageFees;
+		double totalOverageFees = overageRate * overageMinutes;
+		return totalOverageFees;
 	}
 
 }
